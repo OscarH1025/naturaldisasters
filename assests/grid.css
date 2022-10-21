@@ -1,0 +1,46 @@
+
+img {
+    width: 400px;
+    height:400px;
+    object-fit: contain;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    margin: 300px;
+
+    border-radius: 40px;
+
+    
+  }
+
+.grid-item {
+    background-color: rgba(41, 83, 175, 0.8);
+    border: 14px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 70px;
+    text-align: center;
+
+    margin-left: 100px;
+    margin-right: 100px;
+
+    margin-top: 75px;
+    margin-bottom: 75px;
+
+    border-radius: 40px;
+   
+    width: 50%;
+
+
+}
+
+button{
+    font-size: 60px;
+    border-radius: 30px;
+}
+
+
+
