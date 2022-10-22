@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>The Helping Hands Foundation</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+   
+
+    <script src="assets/js/vendor/jQuery.js" defer></script>
+    <script src="assets/js/vendor/bootstrap.js" defer></script>
+    <script src="./dist/script.min.js" defer></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">The Helping Hands Foundation</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="organizations.html">Organizations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="packages.html">Packages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cart.html">Single Items</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="echo.html">3D</a>
+              
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+            <img onmouseover="showCart(this)" class="cart" src="./images/cart.png" alt="">
+            <p class="count-product">0</p>
+        </div>
+        <div class="cart-products" id="products-id">
+            <p class="close-btn" onclick="closeBtn()">X</p>
+            <h3>My cart</h3>
+            <div class="card-items">
+            </div>
+            <h2>Total: <strong class="price-total">0</strong> $</h2>
+            <button>Donate the Items</button>
+        </div>
+    </div>
+    </nav>
+    <section class="container">
+        <div class="products">
+            <div class="carts">
+                <div>
+                    <img src="./images/products/water.webp" alt="">
+                    <p><span>6</span>$</p>
+                </div>
+                <p class="title">Pack of water</p>
+                <a href="" data-id="1" class="btn-add-cart">add to cart</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="./images/products/flash.webp" alt="">
+                    <p><span>10</span>$</p>
+                </div>
+                <p class="title"> Flashlight</p>
+                <a href="" class="btn-add-cart" data-id="2">add to cart</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="./images/products/chef.webp" alt="">
+                    <p><span>4</span>$</p>
+                </div>
+                <p class="title">Spaghetti & Meatballs
+                </p>
+                <a href="" data-id="3" class="btn-add-cart">add to cart</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="./images/products/sleep.jpg" alt="">
+                    <p><span>30.20</span>$</p>
+                </div>
+                <p class="title"> Sleeping bag</p>
+                <a href="" data-id="4" class="btn-add-cart">add to cart</a>
+            </div>
+            <div class="carts">
+                <div>
+                <img src="./images/products/shampo.jpeg" alt="">
+                    <p><span>10</span>$</p>
+                </div>
+                <p class="title"> Shampoo</p>
+                <a href="" data-id="5" class="btn-add-cart">add to cart</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="./images/products/beas.png" alt="">
+                    <p><span>5</span>$</p>
+                </div>
+                <p class="title"> Beans</p>
+                <a href="" data-id="6" class="btn-add-cart">add to cart</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="./images/products/clothing-donations.jpeg" alt="">
+                    <p><span>23.99</span>$</p>
+                </div>
+                <p class="title"> Clothes</p>
+                <a href="" data-id="7" class="btn-add-cart">add to cart</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="./images/products/Mix package.jpeg" alt="">
+                    <p><span>50</span>$</p>
+                </div>
+                <p class="title"> Mix package</p>
+                <a href="" data-id="8" class="btn-add-cart">add to cart</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="./images/products/6e5f1291-0b24-4ef9-a566-22e7697eee3a.2a4e7f4925d478f01612f0942fae4fb7.webp" alt="">
+                    <p><span>16</span>$</p>
+                </div>
+                <p class="title"> Pack of gatorade</p>
+                <a href="" data-id="9" class="btn-add-cart">add to cart</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="./images/products/energy.jpeg" alt="">
+                    <p><span>17.50</span>$</p>
+                </div>
+                <p class="title"> Energy drinks </p>
+                <a href="" data-id="10" class="btn-add-cart">add to cart</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="./images/products/rice.webp" alt="">
+                    <p><span>10</span>$</p>
+                </div>
+                <p class="title">Rice</p>
+                <a href="" data-id="11" class="btn-add-cart">add to cart</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 py-5">
+              <div class="flex-center">
+                <!-- Facebook -->
+                <a>
+                  <i class="fa fa-facebook fa-lg text-white mr-md-5 mr-3 fa-2x">
+                  </i>
+                </a>
+                <!-- Twitter -->
+                <a>
+                  <i class="fa fa-twitter fa-lg text-white mr-md-5 mr-3 fa-2x">
+                  </i>
+                </a>
+                <!-- Google +-->
+                <a>
+                  <i
+                    class="fa fa-google-plus fa-lg text-white mr-md-5 mr-3 fa-2x"
+                  >
+                  </i>
+                </a>
+                <!--Instagram-->
+                <a>
+                  <i class="fa fa-instagram fa-lg text-white mr-md-5 mr-3 fa-2x">
+                  </i>
+                </a>
+                <!--Pinterest-->
+                <a>
+                  <i class="fa fa-pinterest fa-lg text-white fa-2x"> </i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>  
+    
+
+    <script>
+        function showCart(x){
+            document.getElementById("products-id").style.display = "block";
+        }
+        function closeBtn(){
+             document.getElementById("products-id").style.display = "none";
+        }
+
+    </script>
+    <script src="./custom.js" ></script>
+</body>
+</html>
