@@ -6,14 +6,14 @@ The Helping Hands Foundation is a foundation that sends supply packages such as 
 
 # Non-profit Organizations
 
-*American Red Cross
-*United Nations
-*Doctors Without Borders
+* American Red Cross
+* United Nations
+* Doctors Without Borders
 
 # Questions
 
-*Oscar Hurtado: oscarhurtadosb@gmail.com
-*Nicholas Paribello: kingneko69@gmail.com
+* Oscar Hurtado: oscarhurtadosb@gmail.com
+* Nicholas Paribello: kingneko69@gmail.com
 
 # Github
 
