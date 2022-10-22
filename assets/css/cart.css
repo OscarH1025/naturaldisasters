@@ -72,12 +72,12 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color:rgba(191, 190, 195, 0.308)
+    background-color:rgba(139, 137, 132, 0.548)
 }
 
 .carts{
     max-width: 250px;
-    box-shadow: 0 3px 10px rgba(43, 6, 207, 0.856);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.733);
     padding-bottom: 34px;
     margin-bottom: 40px;
 }
