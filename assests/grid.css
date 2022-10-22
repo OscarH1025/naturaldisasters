@@ -1,21 +1,30 @@
 
 img {
-    width: 400px;
-    height:400px;
+    width: 100%;
+    height:auto;
     object-fit: contain;
+
+    border-radius: 20px;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: #2196F3;
+ 
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) ;
+    
+    justify-items: center;
+  
+    
+    width: 80%;
     padding: 10px;
-    margin: 300px;
-
+    margin: auto;
+    
     border-radius: 40px;
+    background-color: #2196F3;
 
     
   }
+
 
 .grid-item {
     background-color: rgba(41, 83, 175, 0.8);
@@ -23,6 +32,10 @@ img {
     padding: 20px;
     font-size: 70px;
     text-align: center;
+
+    min-width: 250px;
+ 
+    
 
     margin-left: 100px;
     margin-right: 100px;
