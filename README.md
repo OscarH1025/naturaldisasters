@@ -6,7 +6,8 @@ The Helping Hands Foundation is a foundation that sends supply packages such as 
 
 # Non-profit Organizations
 
-* American Red Cross
+* American Red Cross: https://www.redcross.org/![image](https://user-images.githubusercontent.com/108623643/197311172-5f1c9136-21a3-4acf-b8fe-421e1cf42af4.png)
+
 * United Nations
 * Doctors Without Borders
 
